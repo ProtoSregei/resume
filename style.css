@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+body
+{
+    font-style: Roboto+Slab;
+    font-size: 20px;
+    background: rgb(255, 255, 255);
+    max-width: 90%;
+    text-indent: 50px;
+    margin: auto;
+}
+.fotka
+{
+margin-top: 30px;
+border: none;
+border-radius: 25px;
+width: 200px;
+padding: auto;
+box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+0 0  0 2px rgb(255,255,255),
+0.3em 0.3em 1em rgba(0,0,0,0.3);
+display: inline-block;
+}
+.info-text h1
+{
+background: rgb(22, 2, 41);
+color: white;
+width: 80%;
+border-radius: 30px;
+margin-left: 10px;
+text-indent: 10px;
+display: inline-block;
+text-align: center;
+}
+
+a
+{
+text-decoration: none;
+background: rgb(7, 1, 14);
+border-radius: 10px;
+padding: 5px;
+color: aliceblue;
+}
+a:hover
+{
+    background: rgb(48, 8, 85);
+    color: aqua;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.hobby 
+{
+text-align: left;
+padding: 0 20px;
+    
+}
+.hobby li{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.info
+{
+    margin-bottom: 20px;
+    display: flex;
+}
+.info-text
+{
+margin-left: 30px;
+}
+.hobby
+{
+    background: rgb(22, 2, 41);
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+.hobby h2 
+{
+text-align: left;
+margin-left: 40px;
+margin-bottom: 30px;
+}
+.ank
+{
+    border: 10px black;
+    border-radius: 30px;
+    background: rgb(22, 2, 41);
+    padding: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.tip h2
+{text-align: center;}
+.tip label
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+   
+}
+.tip
+{display: inline-block;
+width: 46%;}
+.tip textarea 
+{ 
+    width: 80%;
+text-align: center;
+margin-left: 50px;
+}
+.tip input
+{
+width: 80%;
+display: flex;
+margin-left: 50PX;
+}
+.tp 
+{
+background: black;
+color: white;
+border-radius: 20px;
+padding:15px;
+margin-left: 50px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+@media (max-width:1042px) 
+{
+.info 
+{
+    display: block;
+}
+.fotka
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    display: block;
+}
+}
+@media (max-width:840px) 
+{
+.tip
+{
+    display: block;
+    padding-bottom: 15px;
+    width: 90%;
+}
+}
+.exp
+{
+    background: #9b6704;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+    padding: 16px;
+    border-left: 10px solid #026d6d ;
+    border-right: 10px solid #026d6d ;
+}
+.exp tr
+{
+text-align: center;
+width: auto;
+border-left: 10px solid #026d6d ;
+}
+.exp td:nth-child(1)
+{
+    border-left: 5px solid #026d6d ;
+}
+.exp td{padding: 10px;}
+.exp th
+{
+    padding: 15px;
+}
+.sii h2{text-align: center; color: #e2211e;}
